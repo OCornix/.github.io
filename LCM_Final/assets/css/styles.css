@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/images/forest.jpg'); /*https://www.shutterstock.com/image-photo/dark-fantasy-woods-landscape-fog-2465639355*/
+    background-size: cover;
+    background-position: center;
+    color: #000;
+  }
+  
+  nav {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 0;
+    position: absolute;
+    top: 0in;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: yellow;
+  }
+  
+  header {
+    margin-top: 6em; /* Account for nav position */
+    text-align: center;
+    font-family: 'Tagesschrift', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0.2em 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 2em;
+  }
+  
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .content-box h3 {
+    font-family: 'Tagesschrift', sans-serif;
+    margin-top: 1.5em;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
